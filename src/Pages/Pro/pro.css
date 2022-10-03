@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+.proContainer{
+    max-width: 1600px;
+    width: 1600px;
+    border-bottom:1px  solid rgba(128, 128, 128,.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-family: sans-serif;
+    color: rgb(5, 47, 5);
+}
+.rinok{
+    width: 30%;
+    font-size:25px ;
+    font-weight: 800;
+    text-transform: uppercase;
+
+   
+}
+.proUl{
+    width: 60%;
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+   
+}
+.cabinet{
+    width: 10%;
+}
+.active{
+    color:rgb(41, 225, 145)
+}
+.proUl li:last-child{
+    margin-left:150px;
+}
+.conatinerConvert{
+    max-width: 1600px;
+    width: 50%;
+    margin: 15px auto ;
+    display: flex;
+    column-gap: 50px;
+}
+
+.col{
+    width:40%
+}
+.row{
+    width: 100%;
+}
+.countOfMoney{
+    height: 80px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color:rgb(5, 47, 5) ;
+}
+.col-arrow{
+   width: 20%;
+   align-self: center;
+}
+.col-arrow>svg{
+    font-size: 50px;
+    color: rgb(5, 47, 5)
+ }
+ .myButton{
+    padding: 10px 15px;
+    background-color:rgb(167, 195, 167) ;
+    color: white;
+    border:1px outset rgb(161, 195, 161);
+    border-radius: 5px;
+    
+ }
+ .button-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+ }
+.date{
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+}
+.buttonActive{
+    background-color: rgb(91, 162, 91);
+}
+.changeBtn{
+   display: block;
+   margin: 0 auto;
+}
